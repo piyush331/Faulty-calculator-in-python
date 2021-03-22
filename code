@@ -1,0 +1,23 @@
+print("Enter First Number")
+N1 = int(input())
+print("Enter Second Number")
+N2 = int(input())
+print("Enter The Oprator, Eg- +,-,/,*")
+N3 = input()
+
+if N1 == 45 and N2 == 3 and N3 == ("*"):
+    print("555")
+elif N1 == 56 and N2 == 9 and N3 == ("+"):
+    print("77")
+elif N1 == 56 and N2 == 4 and N3 == ("/"):
+    print("4")
+elif N3 == ("+"):
+    print(N1 + N2)
+elif N3 == ("-"):
+    print(N1 - N2)
+elif N3 == ("/"):
+    print(N1 / N2)
+elif N3 == ("*"):
+    print(N1 * N2)
+else:
+    print("Error! Please recheck the input")
